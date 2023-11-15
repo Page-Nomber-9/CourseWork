@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+
+p{
+    margin: 5px;
+}
+
+table{
+    margin-left: 30px;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.first td{
+    background-color: #AAAAAA;
+}
+
+td{
+    padding: 5px;
+    background-color: #d9d9d9;
+    border: 3px solid white;
+}
+
+input[type="text"], input[type="date"], input[type="time"], input[type="password"]{
+    border: 1px solid #b7b7b7;
+    margin: 5px;
+    margin-left: 30px;
+    box-shadow: none;
+    height: 25px;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    margin: 3px;
+    margin-left: 30px;
+    height: 35px;
+    background-color: #d9d9d9;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.shapka{
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+}
+
+.shapka img{
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+.shapka input{
+    margin-top: 10px;
+    width: 100px;
+}
+/*********************/
+.index_main_img{
+    display: flex;
+    justify-content: center;
+}
+.index_main_img img{
+    width: 100px;
+}
+
+.index_main_form{
+    display: flex;
+    justify-content: center;
+}
+
+.index_main_sub{
+    display: flex;
+    justify-content: center;
+}
+
+.index_main{
+    margin-top: 50px;
+}
+.try_is_true input[type="text"],.try_is_true input[type="password"]{
+    border: 1px solid rgb(238, 26, 26);
+}
+.try_is_true_p{
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 26, 26);
+}
